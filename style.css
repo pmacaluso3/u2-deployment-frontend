@@ -1,0 +1,9 @@
+.nav-link {
+  margin: 0.5em;
+  color: blue;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}

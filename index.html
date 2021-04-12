@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">  
+  <title>U2 deployment test!</title>
+</head>
+<body>
+  <nav>
+    <span id="home-link" class="nav-link">Home</span>
+    <span id="new-link" class="nav-link">Create</span>
+    <span id="index-link" class="nav-link">List</span>
+  </nav>
+
+  <section id="home-content">Dinos page!</section>
+  <section class="hidden" id="new-content">
+    <form id="new-dino-form">
+      <div>
+        <label for="new-dino-name">Name</label>
+        <input type="text" id="new-dino-name">
+      </div>
+      <div>
+        <label for="new-dino-type">Type</label>
+        <input type="text" id="new-dino-type">
+      </div>
+      <div>
+        <input type="submit" value="Create Dino!">
+      </div>
+    </form>
+  </section>
+  <section class="hidden" id="index-content"></section>
+  
+  <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script async defer src="/main.js"></script>
+</body>
+</html>
